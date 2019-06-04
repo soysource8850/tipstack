@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <router-link class="navbar__brand" to="/">Tipstack</router-link>
+    <RouterLink class="navbar__brand" to="/">Tipstack</RouterLink>
     <div class="navbar__menu">
       <div class="navbar__item">
         <button class="button">
@@ -10,7 +10,7 @@
       </div>
       <span class="navbar__item">username</span>
       <div class="navbar__item">
-        <router-link class="button button--link" to="/login">Login / Register</router-link>
+        <RouterLink class="button button--link" to="/login">Login / Register</RouterLink>
       </div>
     </div>
   </nav>
