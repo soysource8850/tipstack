@@ -10,8 +10,7 @@ import Login from './pages/Login.vue'
 Vue.use(VueRouter)
 
 // パスとコンポーネントのマッピング
-const routes = [
-  {
+const routes = [{
     path: '/',
     component: PhotoList
   },
