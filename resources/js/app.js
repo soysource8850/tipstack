@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import App from './App.vue'
 
-const CreateApp = async () => {
+const createApp = async () => {
   await store.dispatch('auth/currentUser')
   new Vue({
     el: '#app',
@@ -17,4 +17,4 @@ const CreateApp = async () => {
   })
 }
 
-CreateApp()
+createApp()
